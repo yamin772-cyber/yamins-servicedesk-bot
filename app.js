@@ -174,3 +174,10 @@ window.onload = function () {
     questionBox.focus();
 
 };
+
+function quickIssue(issue) {
+
+    document.getElementById("question").value = issue;
+
+    askBot();
+}
