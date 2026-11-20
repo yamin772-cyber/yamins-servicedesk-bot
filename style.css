@@ -89,3 +89,33 @@ button {
 .command-buttons button:hover {
     background: #106ebe;
 }
+
+.quick-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.quick-buttons button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.quick-buttons button:hover {
+    background: #218838;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    color: #666;
+    font-size: 12px;
+}
