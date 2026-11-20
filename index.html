@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Yamin's Service Desk Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        🤖 Yamin's Service Desk Assistant
+    </div>
+
+    <div class="container">
+
+        <div id="chat">
+
+            <div class="bot">
+                Hello! Describe the issue and I'll search my knowledge base.
+            </div>
+
+        </div>
+
+        <div class="input-area">
+
+            <input
+                id="question"
+                placeholder="Type an issue..." />
+
+            <button onclick="askBot()">
+                Ask
+            </button>
+
+        </div>
+
+        <div class="command-buttons">
+
+            <button onclick="runCommand('clear')">
+                🗑️ Clear
+            </button>
+
+            <button onclick="runCommand('help')">
+                ❓ Help
+            </button>
+
+            <button onclick="runCommand('list')">
+                📚 Articles
+            </button>
+
+            <button onclick="runCommand('version')">
+                ℹ️ Version
+            </button>
+
+        </div>
+
+        <div class="quick-buttons">
+
+            <button onclick="quickIssue('outlook password')">
+                📧 Outlook
+            </button>
+
+            <button onclick="quickIssue('vpn issue')">
+                🌐 VPN
+            
