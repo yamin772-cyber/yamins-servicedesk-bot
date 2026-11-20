@@ -1,115 +1,112 @@
 body {
-    margin:0;
-    font-family:Segoe UI, sans-serif;
-    background:#f4f6f8;
+    margin: 0;
+    font-family: Segoe UI, sans-serif;
+    background: #f4f6f8;
 }
 
 .header {
-    background:#0078d4;
-    color:white;
-    padding:15px;
-    font-size:24px;
-    font-weight:bold;
+    background: #0078d4;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .container {
-    width:90%;
-    max-width:1000px;
-    margin:auto;
-    margin-top:20px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
 }
 
 #chat {
-    background:white;
-    border:1px solid #ddd;
-    height:600px;
-    overflow-y:auto;
-    padding:20px;
-    border-radius:8px;
+    background: white;
+    border: 1px solid #ddd;
+    height: 600px;
+    overflow-y: auto;
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .user {
-    background:#0078d4;
-    color:white;
-    padding:10px;
-    margin:10px 0;
-    border-radius:10px;
-    width:fit-content;
-    max-width:70%;
+    background: #0078d4;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    width: fit-content;
+    max-width: 70%;
 }
 
 .bot {
-    background:#e9ecef;
-    padding:10px;
-    margin:10px 0;
-    border-radius:10px;
-    max-width:80%;
+    background: #e9ecef;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    max-width: 80%;
 }
 
 .input-area {
-    margin-top:15px;
-    display:flex;
-}
-
-input {
-    flex:1;
-    padding:12px;
-    font-size:16px;
-}
-
-button {
-    width:120px;
-    border:none;
-    background:#0078d4;
-    color:white;
-    font-size:16px;
-    cursor:pointer;
-}
-
-.command-buttons {
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
-    gap: 8px;
+    gap: 10px;
+}
+
+.input-area input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.input-area button {
+    width: 120px;
+    border: none;
+    background: #0078d4;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.command-buttons,
+.quick-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     flex-wrap: wrap;
+    margin-top: 15px;
 }
 
 .command-buttons button {
     background: #0078d4;
     color: white;
     border: none;
-    padding: 12px 20px;
     border-radius: 8px;
+    min-width: 140px;
+    height: 50px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
-}
-
 }
 
 .command-buttons button:hover {
     background: #106ebe;
 }
 
-.quick-buttons {
-    margin-top: 10px;
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
 .quick-buttons button {
-    background: #28a745;
+    background: #107c10;
     color: white;
     border: none;
-    padding: 12px 20px;
     border-radius: 8px;
+    min-width: 140px;
+    height: 50px;
     cursor: pointer;
     font-size: 14px;
     font-weight: bold;
 }
 
 .quick-buttons button:hover {
-    background: #218838;
+    background: #0e6e0e;
 }
 
 .footer {
@@ -118,4 +115,11 @@ button {
     padding: 15px;
     color: #666;
     font-size: 12px;
+    border-top: 1px solid #ddd;
+}
+
+h3 {
+    text-align: center;
+    color: #444;
+    margin-top: 20px;
 }
